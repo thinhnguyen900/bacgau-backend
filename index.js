@@ -17,5 +17,5 @@ app.post('/upload', upload.single('audio'), (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`🚀 Server đang chạy trên cổng ${port}`);
+  console.log();
 });
